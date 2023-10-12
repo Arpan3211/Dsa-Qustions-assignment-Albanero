@@ -1,0 +1,71 @@
+No of Questions - 5
+Time to code/solve - 90 mins
+If you think you can crack 5 questions in 90 mins, you are selected for the 1st Round Interview.
+Kindly note these are just sample questions, the difficulty level of questions in the interview can
+be high
+Wish you all the best!!
+Q1) Write a function that takes an integer 'x'(greater than 0) as input and returns a new integer
+formed by reversing the digits of 'x' without using any built-in methods for reversal. After
+reversing the digits, determine whether the resulting number has any prime factors. If it does
+have prime factors, return 'Yes' along with the list of prime factors; otherwise, return 'No'."
+Example 1:
+Input - 123
+reversed integer - 321
+prime factors of 321 are 3 and 107
+output - Yes - [3,107]
+Example 2:
+Input - 1500
+reversed Integre - 51
+prime factors of 51 are 3 and 17
+output - Yes - [3, 17]
+Example 3:
+Input - 1000
+reversed Integre - 1
+There are no prime factors for 1
+output - No
+—-------------------------------------------------------------------------------------------------------------------------
+Q2) Given an array of strings strs, group the anagrams together. You can return the answer in
+any order.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
+typically using all the original letters exactly once.
+Example 1:
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+Example 2:
+Input: strs = [""]
+Output: [[""]]
+Example 3:
+Input: strs = ["a"]
+Output: [["a"]]
+—-------------------------------------------------------------------------------------------------------------------------
+Q3) Given a string s and a array of strings wordArray, return true if s can be segmented into a
+space-separated sequence of one or more array words.
+Note that the same word in the array may be reused multiple times in the segmentation.
+Example 1:
+Input: s = "leetcode", wordArray = ["leet","code"]
+Output: true
+Explanation: Return true because "leetcode" can be segmented as "leet code".
+Example 2:
+Input: s = "applepenapple", wordArray = ["apple","pen"]
+Output: true
+Explanation: Return true because "applepenapple" can be segmented as "apple pen apple".
+Note that you are allowed to reuse a dictionary word.
+Example 3:
+Input: s = "catsandog", wordArray = ["cats","dog","sand","and","cat"]
+Output: false
+—-------------------------------------------------------------------------------------------------------------------------
+Q4) Given an array of non-negative integers nums, arrange them such that they form the largest
+number and return it.
+Note return the result in the form of string
+Example 1:
+Input: nums = [10,2]
+Output: "210"
+Example 2:
+Input: nums = [3,30,34,5,9]
+Output: "9534330"
+—-------------------------------------------------------------------------------------------------------------------------
+Q5) Given a array of non-negative integers nums, Find the Kth largest element in the array
+Note - Do not use any sorting algorithm or library's sort method
+Example-1:
+Input: nums = [10,4,12,9,87,34], K = 2
+Output: 34
